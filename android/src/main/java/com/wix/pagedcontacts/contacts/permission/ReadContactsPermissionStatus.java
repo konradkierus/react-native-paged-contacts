@@ -33,6 +33,9 @@ public enum ReadContactsPermissionStatus {
     }
 
     public static String getAuthorizationStatus(Activity context) {
+        if (context == null) {
+            return notDetermined.value;
+        }
         final int statusCode = PermissionChecker.checkCallingOrSelfPermission(context, Manifest.permission.READ_CONTACTS);
         if (statusCode == authorized.code) {
             return authorized.value;
