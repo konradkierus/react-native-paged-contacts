@@ -15,10 +15,10 @@
     "contacts"
   ],
   "peerDependencies": {
-    "react-native": "0.51.0"
+    "react-native": "0.61.x"
   },
   "devDependencies": {
-    "react-native": "0.51.0"
+    "react-native": "0.61.x"
   },
   "bugs": {
     "url": "https://github.com/wix/react-native-paged-contacts/issues"
@@ -28,6 +28,7 @@
   "author": "Leo Natan <lnatan@wix.com>",
   "contributors": [
     "Amir Uval <amiru@wix.com>",
+    "Ran Greenberg <rang@wix.com>",
     "Guy Carmeli <guyc@wix.com>"
   ],
   "license": "MIT"
