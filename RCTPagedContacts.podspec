@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
 
   s.authors      = "Wix"
   s.homepage     = "https://github.com/wix/react-native-paged-contacts"
-  s.platform     = :ios, "10.0"
+  s.platform     = :ios, "9.0"
 
-  s.source       = { :git => "https://github.com/wix/react-native-paged-contacts.git", :tag => "v#{s.version}" }
+  s.source       = { :git => "https://github.com/softwarehutpl/react-native-paged-contacts.git", :tag => "v#{s.version}" }
   s.source_files  = "ios/**/*.{h,m}"
 
   s.dependency 'React'
