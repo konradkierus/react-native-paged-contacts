@@ -92,7 +92,6 @@ Paged contacts manager for React Native.
 - `PagedContacts.phoneticOrganizationName` — Phonetic organization name.
 - `PagedContacts.birthday` — Birthday.
 - `PagedContacts.nonGregorianBirthday` — Non-Gregorian birthday. (**iOS only**)
-- `PagedContacts.note` — Note.
 - `PagedContacts.imageData` — Image data.
 - `PagedContacts.thumbnailImageData` — Thumbnail data.
 - `PagedContacts.phoneNumbers` — Phone numbers.
@@ -223,7 +222,6 @@ This is a very intensive way of obtaining specific keys of all contacts. Instead
   ],
   "middleName": "M.",
   "jobTitle": "Partner",
-  "note": "Best lawyer ever!",
   "emailAddresses": [
     {
       "label": "work",

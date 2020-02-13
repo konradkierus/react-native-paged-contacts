@@ -21,7 +21,6 @@ public class Contact {
     public Nickname nickname = new Nickname();
     public List<PhoneNumber> phoneNumbers = new ArrayList<>();
     public Organization organization = new Organization();
-    public Note note = new Note();
     public String birthday;
     public List<Date> dates = new ArrayList<>();
     public List<Relation> relations = new ArrayList<>();
@@ -43,7 +42,6 @@ public class Contact {
         nickname.fillMap(map, params);
         name.fillMap(map, params);
         organization.fillMap(map, params);
-        note.fillMap(map, params);
         addStringField(params, map, Field.birthday, birthday);
         addItemsArray(map, phoneNumbers, Field.phoneNumbers, params);
         addItemsArray(map, dates, Field.dates, params);

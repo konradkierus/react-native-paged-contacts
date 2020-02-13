@@ -7,7 +7,6 @@ import android.provider.ContactsContract.CommonDataKinds.Event;
 import android.provider.ContactsContract.CommonDataKinds.Identity;
 import android.provider.ContactsContract.CommonDataKinds.Im;
 import android.provider.ContactsContract.CommonDataKinds.Nickname;
-import android.provider.ContactsContract.CommonDataKinds.Note;
 import android.provider.ContactsContract.CommonDataKinds.Organization;
 import android.provider.ContactsContract.CommonDataKinds.Phone;
 import android.provider.ContactsContract.CommonDataKinds.Photo;
@@ -37,7 +36,6 @@ public enum Field {
     phoneticOrganizationName("phoneticOrganizationName", Organization.CONTENT_ITEM_TYPE, new String[]{Organization.PHONETIC_NAME}),
     departmentName("departmentName", Organization.CONTENT_ITEM_TYPE, new String[]{Organization.DEPARTMENT}),
     jobTitle("jobTitle", Organization.CONTENT_ITEM_TYPE, new String[]{Organization.TITLE}),
-    note("note", Note.CONTENT_ITEM_TYPE, new String[]{Note.NOTE}),
     birthday("birthday", Event.CONTENT_ITEM_TYPE, new String[]{Event.TYPE, Event.START_DATE, Event.LABEL}),
     dates("dates", Event.CONTENT_ITEM_TYPE, new String[]{Event.TYPE, Event.START_DATE, Event.LABEL}),
     relations("relations", Relation.CONTENT_ITEM_TYPE, new String[]{Relation.NAME, Relation.TYPE, Relation.LABEL}),

@@ -138,7 +138,6 @@ PagedContacts.phoneticMiddleName = PagedContactsModule.phoneticMiddleName;
 PagedContacts.phoneticFamilyName = PagedContactsModule.phoneticFamilyName;
 PagedContacts.phoneticOrganizationName = PagedContactsModule.phoneticOrganizationName;
 PagedContacts.birthday = PagedContactsModule.birthday;
-PagedContacts.note = PagedContactsModule.note;
 PagedContacts.imageData = PagedContactsModule.imageData;
 PagedContacts.thumbnailImageData = PagedContactsModule.thumbnailImageData;
 PagedContacts.phoneNumbers = PagedContactsModule.phoneNumbers;

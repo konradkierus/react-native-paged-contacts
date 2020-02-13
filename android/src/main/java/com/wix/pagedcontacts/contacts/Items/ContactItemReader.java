@@ -30,9 +30,6 @@ public class ContactItemReader {
             case ContactsContract.CommonDataKinds.Organization.CONTENT_ITEM_TYPE:
                 readOrganization(cursor);
                 break;
-            case ContactsContract.CommonDataKinds.Note.CONTENT_ITEM_TYPE:
-                readNote(cursor);
-                break;
             case ContactsContract.CommonDataKinds.Event.CONTENT_ITEM_TYPE:
                 readEvent(cursor);
                 break;
@@ -108,10 +105,6 @@ public class ContactItemReader {
         } else {
             contact.dates.add(new Date(cursor));
         }
-    }
-
-    private void readNote(Cursor cursor) {
-        contact.note = new Note(cursor);
     }
 
     private void readOrganization(Cursor cursor) {
